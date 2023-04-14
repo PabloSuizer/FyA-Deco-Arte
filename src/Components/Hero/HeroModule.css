@@ -1,0 +1,25 @@
+.hero h1 {
+    height: 60px;
+    color: black;
+    position: relative;
+    left: 50vh;
+    top: -18px;
+    font-size: 12vh;
+}
+
+.hero p {
+    color: rgb(123, 123, 123);
+    position: relative;
+    left: 50vh;
+    top: -18px;
+    font-size: 6vh;
+}
+
+.hero button {
+    position: relative;
+    left: 50vh;
+    top: -18px;
+}
+.img_mate{
+    display: flex;
+}
