@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from '../../Components/Navbar/Navbar'
-import HeroHome from '../../Components/Hero/HeroHome'
+
+
+
 
 function Home() {
   return (
     <div>
-      <Navbar/>
-      <HeroHome/>
+      <h1>soy el home</h1>
     </div>
   )
 }

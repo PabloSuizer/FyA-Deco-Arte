@@ -7,12 +7,15 @@ import Mayorista from './Pages/Mayorista/Mayorista';
 import Productos  from './Pages/Productos/Productos';
 import SignIn from './Pages/SignIn/SignIn';
 import SignUp from './Pages/SignUp/SignUp';
+import ResponsiveAppBar from './Components/Appbar/ResponsiveAppBar';
+
+
 
 function App() {
   return (
     <BrowserRouter>
-      <ResponsiveAppBar />
-      <Route>
+      <ResponsiveAppBar/>
+      <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/Accesorios' element={<Accesorios/>}/>
         <Route path='/Mates' element={<Mates/>}/>
@@ -21,8 +24,7 @@ function App() {
         <Route path='/SignIn' element={<SignIn/>}/>
         <Route path='/SignUp' element={<SignUp/>}/>
         <Route path='*' element={<Navigate to='/' replace />} />
-      </Route>
-      <StickyFooter/>
+      </Routes>
     </BrowserRouter>
 
   )
