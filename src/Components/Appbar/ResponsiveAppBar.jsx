@@ -53,7 +53,7 @@ function ResponsiveAppBar() {
                                 fontFamily: 'monospace',
                                 fontWeight: 700,
                                 letterSpacing: '.3rem',
-                                color: 'white',
+                                color: 'Black',
                                 textDecoration: 'none',
                             }}
                         >
@@ -109,7 +109,7 @@ function ResponsiveAppBar() {
                                 >
 
                                     <Link
-                                        style={{ textDecoration: 'none', color: '#5A0024', fontFamily: 'Inter', fontSize: '16px', fontWeight: '600' }}
+                                        style={{ textDecoration: 'none', color: '#383B4E', fontFamily: 'Inter', fontSize: '16px', fontWeight: '600' }}
                                         to={`/${page.path}`}
                                     >
                                         {page.name}

@@ -1,9 +1,10 @@
 import React from 'react'
+import Hero from './Hero.jsx';
 
 function Home() {
   return (
     <div>
-      <h1>soy el home</h1>
+      <Hero></Hero>
     </div>
   )
 }
