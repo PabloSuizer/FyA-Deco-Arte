@@ -1,10 +1,9 @@
 .appBar-container {
     width: 100%;
-    height: 270px;
-    background: #EDD3BD;  /* fallback for old browsers /
-    background: -webkit-linear-gradient(to right, rgba(240, 203, 53, 0.5), rgba(192, 36, 37, 0.5)),url(../assets/logo.png);  / Chrome 10-25, Safari 5.1-6 /
-    background: linear-gradient(to right, rgba(240, 203, 53, 0.5), rgba(192, 36, 37, 0.5)),url(../assets/logo.png); / W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-size: auto;
+    height: 1050px;
+    background-image: url('../../assets/Hero-Nav.png');
+    background-size: cover;
+    background-position: left;
     background-position: 0px -30px;
     background-attachment: local;
     background-repeat: no-repeat;
