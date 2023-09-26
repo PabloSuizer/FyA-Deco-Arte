@@ -1,0 +1,16 @@
+.Button{
+    display: flex;
+    justify-content: center;
+}
+.Button-mas {
+    display: flex;
+    width: 260px;
+    font-family: Lexend;
+    height: 61px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: var(--secundario-2, #8BC7C6);
+}

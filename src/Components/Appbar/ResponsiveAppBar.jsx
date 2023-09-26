@@ -13,7 +13,7 @@ import { Link, useNavigate } from "react-router-dom";
 import "./Appbar.css";
 
 /* const pages = ['Productos', 'about', 'adminPanel']; */
-const pages = [{ name: 'Inicio', path: '*' }, { name: 'Nosotros', path: 'about' }, { name: 'Mates', path: 'Mates' }, { name: 'Mayorista', path: 'Mayorista' }, { name: 'Cotiza tu producto', path: 'Cotizatuproducto' }];
+const pages = [{ name: 'Inicio', path: '*' }, { name: 'Nosotros', path: 'Nosotros' }, { name: 'Mates', path: 'Mates' }, { name: 'Mayorista', path: 'Mayorista' }, { name: 'Cotiza tu productos', path: 'Cotiza tu Productos' }];
 const settings = [{ name: 'Iniciar sesión', path: 'signin' }, { name: 'Registrarse', path: 'signup' },];
 
 function ResponsiveAppBar() {
@@ -50,7 +50,7 @@ function ResponsiveAppBar() {
                             sx={{
                                 mr: 2,
                                 display: { xs: 'none', md: 'flex' },
-                                fontFamily: 'monospace',
+                                fontFamily: 'Lexend',
                                 fontWeight: 700,
                                 letterSpacing: '.3rem',
                                 color: 'Black',

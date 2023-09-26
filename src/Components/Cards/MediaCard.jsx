@@ -1,33 +1,64 @@
-import * as React from 'react';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+import React from 'react';
+import './MediaCard.css'
 
-export default function MediaCard() {
+const MediaCard = ({ imageSrc, title, description, buttonText }) => {
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
-        alt="green iguana"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          Lizard
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
-        </Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
-      </CardActions>
-    </Card>
+    <div className="card">
+      <img src={imageSrc} alt={title} className="card-image" />
+      <div className="card-content">
+        <h2 className="card-title">{title}</h2>
+        <p className="card-description">{description}</p>
+        <button className="card-button">
+          {buttonText}
+          <span aria-hidden="true">
+            →
+          </span>
+        </button>
+      </div>
+    </div>
   );
-}
+};
+
+export default MediaCard;
+
+
+
+
+
+
+
+
+
+
+
+
+// import { Button, Card, CardContent, CardMedia, Typography, CardActions, CardActionArea } from "@mui/material";
+// import mermelada from '../../assets/Rectangle.png';
+
+// export default function MediaCard() {
+//   return (
+//     <Card sx={{
+//       maxWidth: 445,
+//       transition: "0.2s", "&.hover":{
+//       transform: "scale(3.05),"
+//       }}}>
+//       <CardActionArea>
+//         <CardMedia
+//           component="img"
+//           sx={{ height: 140 }}
+//           image={mermelada}
+//           alt="bolso matero"
+//         />
+//         <CardContent>
+//           <Typography variant="h5">Card Title</Typography>
+//           <Typography component="p" variant="body2">
+//             hola soy el contenido de la card
+//           </Typography>
+//         </CardContent>
+//       </CardActionArea>
+//       <CardActions>
+//         <Button variante="contained">Ver Mas</Button>
+//       </CardActions>
+//     </Card>
+//   )
+// }

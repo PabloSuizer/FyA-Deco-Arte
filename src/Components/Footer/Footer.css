@@ -1,0 +1,50 @@
+.footer {
+    background-color: #eed0b6;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 300px;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 100px;
+    height: 100px;
+}
+.Logo-social{
+    width: 30px;
+    height: 30px;
+}
+
+.footer-contact {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.footer-contact p {
+color: #787878;
+}
+
+.footer-social {
+    display: flex;
+    gap: 23px;
+    font-size: 24px;
+}
+
+.footer-social a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos adicionales para iconos de redes sociales, por ejemplo, usando Font Awesome */
